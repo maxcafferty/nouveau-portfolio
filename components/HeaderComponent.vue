@@ -41,15 +41,10 @@
     name: 'header-component',
     props: [],
     mounted() {
-      $(".navbar-burger").click(function() {
-        $(".navbar-burger").toggleClass("is-active");
-        $(".navbar-menu").toggleClass("is-active");
-        $(".navbar-menu").addClass("animated slideInDown");
+      $(".navbar-burger, .navbar-menu").click(function() {
+        $(".navbar").toggleClass("animated slideInDown has-background-white");
+        $(".navbar-burger, .navbar-menu").toggleClass("is-active");
         $(".navbar-menu ul").addClass("animated slideInDown 1s");
-      });
-      $(".navbar-menu").click(function() {
-        $(".navbar-burger").toggleClass("is-active");
-        $(".navbar-menu").toggleClass("is-active");
       });
     },
     data() {
@@ -100,7 +95,7 @@ li {
 }
   @media screen and (max-width: 1087px) {
     .navbar {
-      background-color:#ffffff;
+      /*background-color:#ffffff;*/
       position: fixed;
       top:0;
       left: 0;

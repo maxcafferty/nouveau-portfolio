@@ -30,10 +30,10 @@
 	<div class="column is-offset-half is-half has-text-left animated fadeInRight delay-2s">
 	  <h4 class="has-text-primary">Compétences</h4></br>
 	  <div class="progress-container"><progress class="progress progress-one is-primary" value="0" max="100"></progress><p>HTML</p></div>
-	  <div class="progress-container"><progress class="progress progress-two is-primary" value="0" max="100"></progress><p>CSS, Sass, Bootstrap</p></div>
-	  <div class="progress-container"><progress class="progress progress-three is-primary" value="0" max="100"></progress><p>JS ES5/ES6, JQuery</p></div>
+	  <div class="progress-container"><progress class="progress progress-two is-primary" value="0" max="100"></progress><p>CSS</p></div>
+	  <div class="progress-container"><progress class="progress progress-three is-primary" value="0" max="100"></progress><p>JS ES5/ES6</p></div>
 	  <div class="progress-container"><progress class="progress progress-four is-primary" value="0" max="100"></progress><p>Angular 2+</p></div>
-	  <div class="progress-container"><progress class="progress progress-five is-primary" value="0" max="100"></progress><p>Vue.js, Nuxt.js</p></div>
+	  <div class="progress-container"><progress class="progress progress-five is-primary" value="0" max="100"></progress><p>Vue.js</p></div>
 	</div>
 	<div class="column is-full has-text-center">
 	  <nuxt-link to="/about">Retour</nuxt-link>
