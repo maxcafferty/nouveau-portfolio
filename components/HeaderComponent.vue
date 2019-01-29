@@ -42,9 +42,11 @@
     props: [],
     mounted() {
       $(".navbar-burger, .navbar-menu").click(function() {
-        $(".navbar").toggleClass("animated slideInDown has-background-white");
-        $(".navbar-burger, .navbar-menu").toggleClass("is-active");
-        $(".navbar-menu ul").addClass("animated slideInDown 1s");
+        if ($(document).width() < 1088 ){
+          $(".navbar").toggleClass("animated slideInDown has-background-white");
+          $(".navbar-burger, .navbar-menu").toggleClass("is-active");
+          $(".navbar-menu ul").addClass("animated slideInDown 1s");
+        }
       });
     },
     data() {
